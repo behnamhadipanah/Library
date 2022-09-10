@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibrarySystem.Infrastructure.Contracts\LibrarySystem.Infrastructure.Contracts.csproj" />
+    <ProjectReference Include="..\LibrarySystem.Infrastructure.EfCore\LibrarySystem.Infrastructure.EfCore.csproj" />
+  </ItemGroup>
+
+</Project>
